@@ -62,14 +62,14 @@
                 
                         <ul class="nav">
                             <li class="nav-item open">
-                                <a href="https://shoppingcard.test/products" class="nav-link active">
+                                <a href="{{ route('product.index') }}"class="nav-link active">
                                     <i class="nav-icon fab fa-product-hunt"> 
                                     </i>
                                     Browse products
                                 </a>
                             </li>
                             <li class="nav-item open">
-                                    <a href="https://shoppingcard.test/carts/show" class="nav-link active">
+                                    <a href="{{ route('cart.show') }}" class="nav-link active">
                                         <i class="nav-icon fas fa-shopping-cart">
                                         </i>
                                         Shopping cart
